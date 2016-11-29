@@ -569,7 +569,6 @@ REM2subset2 %<>% mutate(swpCNTRBTR_ACCT_NAME = ifelse(swpCNTRBTR_ACCT_NAME == "R
 REM2subset2$swpCNTRBTR_ACCT_NAME %<>% trimws
 REM2subset2$swpCNTRBTR_ACCT_NAME %<>% gsub("\\s+", " ", ., ignore.case=T)
 
-
 #Chkit
 glimpse(REM2subset2)
 ###### 94. REM2 additional flags and columns from Regex ### ##
